@@ -1,43 +1,51 @@
 {
-  "name": "vite-react-tailwind-lints",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "browserslist": [
-    "extends browserslist-config-google"
-  ],
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "browserslist-config-google": "^3.0.1",
-    "eslint": "^8.24.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
-    "postcss-preset-env": "^7.8.2",
-    "prettier": "2.7.1",
-    "rollup-plugin-cleanup": "^3.2.1",
-    "sass": "^1.55.0",
-    "stylelint": "^14.13.0",
-    "stylelint-config-standard-scss": "^5.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.4",
-    "stylelint-order": "^5.0.0",
-    "tailwindcss": "^3.1.8",
-    "vite": "^3.1.0"
-  }
+	"name": "vite-react-tailwind-lints",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"browserslist": [
+		"extends browserslist-config-google"
+	],
+	"keywords": [
+		"boilerplate",
+		"vite",
+		"react",
+		"vscode",
+		"eslint"
+	],
+	"author": "Yelban",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.21",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.1.0",
+		"browserslist-config-google": "^3.0.1",
+		"eslint": "^8.24.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-simple-import-sort": "^8.0.0",
+		"postcss-preset-env": "^7.8.2",
+		"prettier": "2.7.1",
+		"rollup-plugin-cleanup": "^3.2.1",
+		"sass": "^1.55.0",
+		"stylelint": "^14.13.0",
+		"stylelint-config-standard-scss": "^5.0.0",
+		"stylelint-no-unsupported-browser-features": "^5.0.4",
+		"stylelint-order": "^5.0.0",
+		"tailwindcss": "^3.1.8",
+		"vite": "^3.1.6"
+	}
 }
